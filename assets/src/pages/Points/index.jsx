@@ -3,7 +3,7 @@ import React from 'react'
 import {
   View,
   Text,
-  styles,
+  StyleSheet,
   TouchableOpacity,
   ScrollView,
   Image
@@ -15,6 +15,17 @@ import { useNavigation } from '@react-navigation/native'
 import MapView, { Marker } from 'react-native-maps'
 
 export default function Points() {
+  const navigation = useNavigation()
+
+  //funcao para abrir atela de details
+  function handleNavigationToDetails() {
+    navigation.goBack()
+
+    //funcao para voltar a tela anterior
+    function handleNavigatorBack() {
+      navigation.goBack()
+    }
+  }
   return (
     <>
       <View style={styles.container}>
@@ -38,7 +49,7 @@ export default function Points() {
             }}
           >
             <Marker
-              onPress={() => {}}
+              onPress={handleNavigationToDetails}
               coordinate={{ latitude: -23.4460282, longitude: -46.9172153 }}
             >
               <View style={styles.mapMarkerContainer}>
