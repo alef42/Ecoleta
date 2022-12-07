@@ -9,17 +9,23 @@ import {
 } from 'react-native'
 import { Feather as Icon } from '@expo/vector-icons'
 import { RectButton } from 'react-native-gesture-handler'
+import { useNavigation } from '@react-navigation/native'
 export default function Home() {
+  const navigation = useNavigation()
+  function handleNavigationToPoints() {
+    navigation.navigate('Points')
+  }
+
   return (
     <ImageBackground
-      source={require('../../assets/home-background.png')}
+      source={require('../../assets/icones/home-background.png')}
       style={styles.container}
       imageStyle={{ width: 274, height: 368 }}
     >
       <View style={styles.main}>
         <Image
           style={{ width: 182, height: 44 }}
-          source={require('../../assets/logo.png')}
+          source={require('../../assets/icones/logo.png')}
         />
         <Text style={styles.title}>Seu marketplace de coleta de residuos</Text>
         <Text style={styles.description}>
@@ -33,7 +39,7 @@ export default function Home() {
           placeholder="Senha"
           autoCorrect={false}
         />
-        <RectButton style={styles.button}>
+        <RectButton style={styles.button} onPress={handleNavigationToPoints}>
           <View style={styles.buttonIcon}>
             <Icon name="arrow-right" color="#FFF" size={24} />
           </View>
