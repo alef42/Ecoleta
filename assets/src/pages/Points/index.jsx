@@ -18,8 +18,8 @@ export default function Points() {
   const navigation = useNavigation()
 
   //funcao para abrir atela de details
-  function handleNavigationToDetails() {
-    navigation.goBack()
+  function handleNavigationToDetail() {
+    navigation.navigate('Detail')
 
     //funcao para voltar a tela anterior
     function handleNavigatorBack() {
@@ -49,16 +49,17 @@ export default function Points() {
             }}
           >
             <Marker
-              onPress={handleNavigationToDetails}
+              onPress={handleNavigationToDetail}
               coordinate={{ latitude: -23.4460282, longitude: -46.9172153 }}
             >
               <View style={styles.mapMarkerContainer}>
                 <Image
                   style={styles.mapMarkerImage}
                   source={{
-                    url: 'https://f.i.uol.com.br/fotografia/2019/08/16/15659855445d570b082fe09_1565985544_3x2_md.jpg'
+                    uri: 'https://f.i.uol.com.br/fotografia/2019/08/16/15659855445d570b082fe09_1565985544_3x2_md.jpg'
                   }}
                 />
+
                 <Text style={styles.mapMarkerTitle}>Centro Histórico</Text>
               </View>
             </Marker>
@@ -172,7 +173,7 @@ const styles = StyleSheet.create({
 
   mapMarkerImage: {
     width: 90,
-    height: 45,
+    height: 80,
     resizeMode: 'cover'
   },
 
