@@ -1,9 +1,3 @@
-<h1 align="center">
-    <img src="[./assets/src/icones/logo.svg](https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FQFSmhXbnT3Q%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQFSmhXbnT3Q&tbnid=emUsH2nVJUAb7M&vet=12ahUKEwiE-PXF3ej7AhUJg5UCHeFGBwkQMygIegUIARCXAQ..i&docid=aiYEL52jbqOcCM&w=1280&h=720&itg=1&q=ecoleta&ved=2ahUKEwiE-PXF3ej7AhUJg5UCHeFGBwkQMygIegUIARCXAQ)"
-    width="400px"
-    alt="Logo" />
-</h1>
-
 <h3 align="center">
   React Native - Ecoleta
 </h3>
@@ -38,9 +32,7 @@ _ps: Before running the app, start the [Node.js - Ecoleta](https://github.com/os
 
 Open terminal:
 
-```sh
-# Clone this repo
-git clone https://github.com/osvaldokalvaitir/react-native-ecoleta
+```
 
 # Entry in folder
 cd Ecoleta
@@ -66,5 +58,5 @@ This project is under the MIT license. See [LICENSE](/LICENSE) for more informat
 ---
 
 <p align="center">
-Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+Developed with 💚 by <a href="https://www.linkedin.com/in/alef-santos-1662a8161/">Alef dos Santos</a>
 </p>
