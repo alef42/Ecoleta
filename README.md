@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FQFSmhXbnT3Q%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQFSmhXbnT3Q&tbnid=emUsH2nVJUAb7M&vet=12ahUKEwiE-PXF3ej7AhUJg5UCHeFGBwkQMygIegUIARCXAQ..i&docid=aiYEL52jbqOcCM&w=1280&h=720&itg=1&q=ecoleta&ved=2ahUKEwiE-PXF3ej7AhUJg5UCHeFGBwkQMygIegUIARCXAQ"
+    <img src="./assets/src/icones/logo.svg"
     width="400px"
     alt="Logo" />
 </h1>
