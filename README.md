@@ -30,7 +30,7 @@
 
 ## :iphone: Demo
 
-![Demo](/.github/assets/demo.gif)
+![Demo]([/.github/assets/demo.gif](https://raw.githubusercontent.com/osvaldokalvaitir/react-native-ecoleta/main/.github/assets/demo.gif))
 
 ## :wrench: Install and run
 
